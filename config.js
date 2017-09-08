@@ -5,7 +5,7 @@ var config = function () {
   
   this.logFormat = "combined";
   this.ipcPath = "http://172.16.3.230:8545";
-  this.provider = new Web3.providers.HttpProvider(this.ipcPath);
+  this.provider = new web3.providers.HttpProvider(this.ipcPath);
   
   this.bootstrapUrl = "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css";
   
